@@ -53,7 +53,7 @@ const InfoScreen = ({ navigation }) => {
         <Text style={styles.buttonText}>Ir a Pantalla 2</Text>
       </TouchableOpacity>
 
-      {enviado && <CardInfo nombre={info.nombre} edad={info.edad} />}
+      {enviado && <CardInfo name={info.nombre} age={info.edad} />}
     </View>
   );
 };
