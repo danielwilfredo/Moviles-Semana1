@@ -4,23 +4,24 @@ Este proyecto usa Expo SDK 54, por lo que se recomienda instalar dependencias de
 
 ## Orden de instalacion recomendado
 
-1. Instalar la libreria base de navegacion:
+1. Instalar dependencias nativas requeridas por el stack:
+
+```bash
+npx expo install react-native-screens react-native-safe-area-context
+```
+
+2. Instalar la libreria base de navegacion:
 
 ```bash
 npx expo install @react-navigation/native
 ```
 
-2. Instalar el stack navigator:
+3. Instalar el stack navigator:
 
 ```bash
 npx expo install @react-navigation/native-stack
 ```
 
-3. Instalar dependencias nativas requeridas por el stack:
-
-```bash
-npx expo install react-native-screens react-native-safe-area-context
-```
 
 ## Instalacion en una sola linea (opcional)
 
